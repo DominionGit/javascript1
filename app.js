@@ -1,20 +1,18 @@
-var num1 = prompt("input your first num1");
-var num2 =  prompt("input your last num2");
-var num1 = 30
-var num2 = 35
-var user = 30 + 35
-console.log('the sum of ' + num1 + ' + num2  is ' + user);
- alert(output);
-
-    
-
-var firstname = "dominion";
-var name = prompt("input your first name");
-var lastname = "michael"
-var last = prompt("input your last name");
-var firstnames = firstname.slice(0,4);
-var lastnames = lastname.slice(0,1);
-var names = firstnames + lastnames;
-
-var output = "your capacitybay user id is " + names;
-alert(output)
+ 
+ function lifeinweeks(age){
+  var day = parseInt(prompt("input your age"));
+  var day1 = day - 90
+  var day2 = day1
+  var days = 365
+  var nodays = day2 * days
+  var  tdays = nodays;
+// remaining weeks
+ var week = 52 * day1 
+ var weeks = week
+//  remainng months
+var month = 12 * day1
+var months = month
+ var total = "we have " + nodays  + " days " + week  + " weeks and " + month + " months left" ;
+ console.log(total)
+ }
+ lifeinweeks(23)
